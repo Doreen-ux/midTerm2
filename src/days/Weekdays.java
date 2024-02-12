@@ -10,7 +10,7 @@ package days;
  */
 public class Weekdays 
 {
-  public void nameOfDay(String code)
+  public void nameOfDay(DaysOfTheWeek code)
      {
     switch(code.toUpperCase())
       {

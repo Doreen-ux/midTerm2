@@ -25,9 +25,10 @@ public class Days {
          
     Scanner in =new Scanner(System.in);
     System.out.println("Enter the day number (one,two,three,four,five) in string");
-    String code = in.next();
+    String code = in.next().toUpperCase();
+    DaysOfTheWeek day = DaysOfTheWeek.valueOf(code);
     Weekdays t= new Weekdays();
-    t.nameOfDay(code); 
+    t.nameOfDay(day);
     }// TODO code application logic here
     
     
